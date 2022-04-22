@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* End Section Title */
 
-/* ../images/banner.jpg -- ADD BANNER IMAGE HERE AND DELETE THIS LINE (INDEX LINE 138?) */
+/* Banner for top of page here? */
 .page-header {
     background: url(../images/banner.jpg) no-repeat;
     padding: 50px 0;
@@ -866,16 +866,20 @@ iframe {
 }
 
 #team-section .section-title h2 {
-    //color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
 }
 
 #team-section .section-title p {
-    //color: #fff;
+    color: rgb(0, 0, 0);
+    font-size: larger;
 }
 
 .team-member {
     position: relative;
     overflow: hidden;
+    border: 5px solid black;
+    margin: 15px auto;
 }
 
 .team-member .team-details {
@@ -897,7 +901,7 @@ iframe {
 .team-member .team-details h4 {
     padding-top: 15%;
     padding-bottom: 5%;
-    font-size: 22px;
+    font-size: 23px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -1183,16 +1187,16 @@ and (min-width : 551px){
 }
 
 .services-post {
-  text-align: center;
+    text-align: center;
     margin-bottom: 80px;
 }
 .services-post a {
   display: inline-block;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
+  transition: background, transform 0.2s ease-in-out;
+  -moz-transition: background, transform 0.2s ease-in-out;
+  -webkit-transition: background, transform 0.2s ease-in-out;
+  -o-transition: background, transform 0.2s ease-in-out;
   width: 100px;
   height: 100px;
   margin: 0 0 24px;
@@ -1212,6 +1216,7 @@ and (min-width : 551px){
   background: #79170c;
   color: #ffffff;
   border:2px solid transparent;
+  transform:rotate(30deg)
 }
 .services-post h2 {
   color: #111;
@@ -1388,7 +1393,7 @@ h3.pricing-title {
 /*******************************************/
 
 #client-section {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 80px;
 }
 
