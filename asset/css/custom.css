@@ -1,3 +1,4 @@
+/* Links */
 .team-member{
     border: 5px solid black;
 }
@@ -6,3 +7,106 @@
     font-size: larger;
     font-weight: bold;
 }
+
+.skill-shortcode {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.panel-default > .panel-heading {
+	background: transparent;
+    border: 3px solid #111;
+    border-radius: none;
+    font-weight: 400;
+}
+
+.panel-title a.collapsed:hover {
+	color: rgb(255, 255, 255);
+    background-color: #79190c;
+    padding: 20px
+}
+
+.panel-title a:hover {
+	position: relative;
+	display: block;
+	padding: 6px 12px;
+	background-color: #79190c;
+	box-shadow: none;
+	-o-box-shadow: none;
+	-moz-box-shadow: none;
+  	-webkit-box-shadow: none;
+	transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.panel-title a:hover {
+    color:rgb(255, 255, 255)
+}
+
+/* Home Page Paralax */
+.call-to-action {
+    background: url(../images/parallax/call-to.jpg); /*change image link - images > parallax > img.jpg*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 90%;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 100px
+}
+
+/*resume progress bar*/
+.progress-bar {
+    background: #ff0000;
+  float: left;
+  height: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  position:relative;
+}
+
+.panel-title a i {
+	font-size: 22px;
+    padding-right: 5px;
+    color: #ff0000;
+}
+
+
+.progress-bar-span { 
+    opacity:1;
+    position:absolute;
+    top:-7px;
+    background:#ACB2B8;
+    padding:0px 10px;
+    color:#FFF;
+    border-radius: 0px;
+    right:0px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; 
+}
+
+.about-list #text{
+    color:red;
+}
+
+/*Footer*/
+.footer-section p {
+    color: #999;
+    font-size:larger
+}
+
+.footer-section .section-heading-2 h3{
+    font-size:x-large;
+    margin-bottom: 15px;
+}
+
